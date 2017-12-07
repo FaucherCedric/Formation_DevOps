@@ -8,4 +8,10 @@ describe("Checking if the user is created correctly", function(){
         var tom = new User("tom");
         tom.name.should.be.equal("tom");
     });
+
+    it("should haver on error", function(){
+        debugger
+        var tom = new User("tom");
+        tom.name.should.be.equal("tommy");
+    });
 });
